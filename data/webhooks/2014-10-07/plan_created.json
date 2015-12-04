@@ -1,0 +1,26 @@
+[
+  {
+    "created": 1326853478,
+    "livemode": false,
+    "id": "evt_00000000000000",
+    "type": "plan.created",
+    "object": "event",
+    "request": null,
+    "data": {
+      "object": {
+        "interval": "month",
+        "name": "Gold Special",
+        "created": 1414767922,
+        "amount": 2000,
+        "currency": "usd",
+        "id": "gold_00000000000000",
+        "object": "plan",
+        "livemode": false,
+        "interval_count": 1,
+        "trial_period_days": null,
+        "metadata": {},
+        "statement_description": null
+      }
+    }
+  }
+]

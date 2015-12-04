@@ -1,0 +1,24 @@
+[
+  {
+    "created": 1326853478,
+    "data": {
+      "object": {
+        "account_balance": 0,
+        "active_card": null,
+        "created": 1372666743,
+        "delinquent": false,
+        "description": null,
+        "discount": null,
+        "email": null,
+        "id": "cus_00000000000000",
+        "livemode": false,
+        "object": "customer",
+        "subscription": null
+      }
+    },
+    "id": "evt_00000000000000",
+    "livemode": false,
+    "object": "event",
+    "type": "customer.created"
+  }
+]

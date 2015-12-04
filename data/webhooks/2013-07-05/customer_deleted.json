@@ -1,0 +1,30 @@
+[
+  {
+    "created": 1326853478,
+    "data": {
+      "object": {
+        "account_balance": 0,
+        "cards": {
+          "count": 0,
+          "data": [],
+          "object": "list",
+          "url": "/v1/customers/cus_2FbF4FTM3YPGLz/cards"
+        },
+        "created": 1374586907,
+        "default_card": null,
+        "delinquent": false,
+        "description": null,
+        "discount": null,
+        "email": null,
+        "id": "cus_00000000000000",
+        "livemode": false,
+        "object": "customer",
+        "subscription": null
+      }
+    },
+    "id": "evt_00000000000000",
+    "livemode": false,
+    "object": "event",
+    "type": "customer.deleted"
+  }
+]

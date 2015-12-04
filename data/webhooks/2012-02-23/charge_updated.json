@@ -1,0 +1,71 @@
+[
+  {
+    "created": 1326853478,
+    "livemode": false,
+    "id": "evt_00000000000000",
+    "type": "charge.updated",
+    "object": "event",
+    "request": null,
+    "data": {
+      "object": {
+        "id": "ch_00000000000000",
+        "object": "charge",
+        "created": 1415277596,
+        "livemode": false,
+        "paid": true,
+        "amount": 100,
+        "currency": "usd",
+        "refunded": false,
+        "card": {
+          "id": "cc_00000000000000",
+          "object": "card",
+          "last4": "4242",
+          "brand": "Visa",
+          "funding": "credit",
+          "exp_month": 8,
+          "exp_year": 2014,
+          "fingerprint": "TTKQdP1Omgi1czlY",
+          "country": "US",
+          "name": null,
+          "address_line1": null,
+          "address_line2": null,
+          "address_city": null,
+          "address_state": null,
+          "address_zip": null,
+          "address_country": null,
+          "cvc_check": null,
+          "address_line1_check": null,
+          "address_zip_check": null,
+          "dynamic_last4": null,
+          "customer": null,
+          "type": "Visa"
+        },
+        "captured": true,
+        "balance_transaction": "txn_00000000000000",
+        "failure_message": null,
+        "failure_code": null,
+        "amount_refunded": 0,
+        "customer": null,
+        "invoice": null,
+        "description": "My First Test Charge (created for API docs)",
+        "dispute": null,
+        "metadata": {},
+        "statement_description": null,
+        "fraud_details": {
+          "stripe_report": null,
+          "user_report": null
+        },
+        "receipt_email": null,
+        "receipt_number": null,
+        "shipping": null,
+        "fee": 0,
+        "fee_details": [],
+        "uncaptured": null,
+        "disputed": false
+      },
+      "previous_attributes": {
+        "description": "Old description"
+      }
+    }
+  }
+]

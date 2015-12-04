@@ -1,0 +1,21 @@
+{
+  "name": "stripe-mock-data",
+  "version": "1.0.0",
+  "description": "Stripe webhook & object data for mocking / testing purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stripe",
+    "test",
+    "mock",
+    "data",
+    "api",
+    "server",
+    "webhook",
+    "json"
+  ],
+  "author": "Nijiko Yonskai",
+  "license": "MIT"
+}
