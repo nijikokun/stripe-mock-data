@@ -2,6 +2,7 @@
   "name": "stripe-mock-data",
   "version": "1.0.0",
   "description": "Stripe webhook & object data for mocking / testing purposes",
+  "repository": "Nijikokun/stripe-mock-data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +17,6 @@
     "webhook",
     "json"
   ],
-  "author": "Nijiko Yonskai",
+  "author": "Nijiko Yonskai <nijikokun@gmail.com> (nijikokun.com)",
   "license": "MIT"
 }
