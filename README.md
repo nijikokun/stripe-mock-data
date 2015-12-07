@@ -12,6 +12,7 @@ Stripe webhook & object data for mocking / testing purposes.
   - [`2013-07-05`](data/webhooks/2013-07-05)
   - [`2013-08-13`](data/webhooks/2013-08-13)
   - [`2014-10-07`](data/webhooks/2014-10-07)
+  - [`2014-11-05`](data/webhooks/2014-11-05)
   - [`2015-04-07`](data/webhooks/2015-04-07)
   - [`2015-10-01`](data/webhooks/2015-10-01)
 
@@ -58,6 +59,7 @@ try {
 - Split webhook data into seperate files for API usage
 - Clean up older webhook objects of invalid identifiers
 - Write tests for main entry file
+- Create a core webhooks folder, and prioritize the updated variants within versions over core
 
 ## License
 
