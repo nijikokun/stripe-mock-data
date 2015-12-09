@@ -64,6 +64,14 @@ try {
 }
 ```
 
+Using resource object builders:
+
+```
+console.log(StripeData.resources.account({
+  id: 'cus_CUSTOM_ID' // overrides default parameters
+}))
+```
+
 ## Todo
 
 - Write tests (entry file, resource objects)
