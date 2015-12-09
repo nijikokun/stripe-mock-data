@@ -2,6 +2,12 @@
 
 Stripe webhook & resource object data for mocking / testing purposes.
 
+## Install
+
+```bash
+$ npm install stripe-mock-data --save-dev
+```
+
 ## Features
 
 - Quick access to entire dataset via `.collection`
@@ -25,12 +31,6 @@ Stripe webhook & resource object data for mocking / testing purposes.
 - [`2015-10-01`](data/webhooks/2015-10-01)
 
 Don't see your version? [Open an issue](https://github.com/Nijikokun/stripe-mock-data/issues/new), or start a pull request by forking.
-
-## Install
-
-```bash
-$ npm install stripe-mock-data --save-dev
-```
 
 ## Usage
 
