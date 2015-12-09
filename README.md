@@ -1,4 +1,4 @@
-# Stripe Mock Data
+# Stripe Mock Data [![Gitter chat](https://badges.gitter.im/Nijikokun/stripe-mock-data.png)](https://gitter.im/Nijikokun/stripe-mock-data)
 
 Stripe webhook & resource object data for mocking / testing purposes.
 
