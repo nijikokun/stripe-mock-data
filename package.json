@@ -1,6 +1,6 @@
 {
   "name": "stripe-mock-data",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Stripe webhook & object data for mocking / testing purposes",
   "repository": "Nijikokun/stripe-mock-data",
   "main": "index.js",
