@@ -1,20 +1,30 @@
 # Stripe Mock Data
 
-Stripe webhook & object data for mocking / testing purposes.
+Stripe webhook & resource object data for mocking / testing purposes.
 
-## Features & Data
+## Features
 
 - Quick access to entire dataset via `.collection`
 - Quick select of a specific version using constructor.
-- Webhook Data
-  - [`2012-02-23`](data/webhooks/2012-02-23)
-  - [`2013-02-13`](data/webhooks/2013-02-13)
-  - [`2013-07-05`](data/webhooks/2013-07-05)
-  - [`2013-08-13`](data/webhooks/2013-08-13)
-  - [`2014-10-07`](data/webhooks/2014-10-07)
-  - [`2014-11-05`](data/webhooks/2014-11-05)
-  - [`2015-04-07`](data/webhooks/2015-04-07)
-  - [`2015-10-01`](data/webhooks/2015-10-01)
+
+## Versioning
+
+**Resource Object Builders**
+
+- [`2014-11-05`](data/resources/2014-11-05)
+
+**Webhook Data**
+
+- [`2012-02-23`](data/webhooks/2012-02-23)
+- [`2013-02-13`](data/webhooks/2013-02-13)
+- [`2013-07-05`](data/webhooks/2013-07-05)
+- [`2013-08-13`](data/webhooks/2013-08-13)
+- [`2014-10-07`](data/webhooks/2014-10-07)
+- [`2014-11-05`](data/webhooks/2014-11-05)
+- [`2015-04-07`](data/webhooks/2015-04-07)
+- [`2015-10-01`](data/webhooks/2015-10-01)
+
+Don't see your version? [Open an issue](https://github.com/Nijikokun/stripe-mock-data/issues/new), or start a pull request by forking.
 
 ## Install
 
@@ -56,10 +66,9 @@ try {
 
 ## Todo
 
-- Split webhook data into seperate files for API usage
+- Write tests (entry file, resource objects)
 - Clean up older webhook objects of invalid identifiers
-- Write tests for main entry file
-- Create a core webhooks folder, and prioritize the updated variants within versions over core
+- Core for webhooks / resources, extend off core objects.
 
 ## License
 
