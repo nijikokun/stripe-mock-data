@@ -18,5 +18,8 @@
     "json"
   ],
   "author": "Nijiko Yonskai <nijikokun@gmail.com> (nijikokun.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "assign-deep": "^0.4.2"
+  }
 }
