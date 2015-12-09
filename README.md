@@ -1,5 +1,7 @@
 # Stripe Mock Data
 
+[![Join the chat at https://gitter.im/Nijikokun/stripe-mock-data](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Nijikokun/stripe-mock-data?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Stripe webhook & resource object data for mocking / testing purposes.
 
 ## Install
