@@ -3,9 +3,9 @@ var assign = require('assign-deep')
 module.exports = function mockCustomer (params) {
   params = params || {}
   params.id = params.id || "cus_00000000000000"
-  params.cards = params.cards || {}
+  params.cards = params.cards || { data: [] }
   params.cards.total_count = params.cards.data.length
-  params.subscriptions = params.subscriptions || {}
+  params.subscriptions = params.subscriptions || { data: [] }
   params.subscriptions.total_count = params.subscriptions.data.length
 
   return assign({
